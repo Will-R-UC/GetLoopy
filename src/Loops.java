@@ -13,5 +13,13 @@ public class Loops {
         for (int i = 30; i >= 0; i--) {
             System.out.print(i + " ");
         }
+
+        System.out.print("\n\n");
+
+        //Task 3
+        System.out.println("# Task 3");
+        for (int i = 0; i <= 18; i += 3) {
+            System.out.print(i + " ");
+        }
     }
 }
