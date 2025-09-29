@@ -6,6 +6,12 @@ public class Loops {
             System.out.print(i + " ");
         }
 
+        System.out.print("\n\n");
 
+        //Task 2
+        System.out.println("# Task 2");
+        for (int i = 30; i >= 0; i--) {
+            System.out.print(i + " ");
+        }
     }
 }
