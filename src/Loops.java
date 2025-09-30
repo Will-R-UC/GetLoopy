@@ -29,5 +29,16 @@ public class Loops {
         for (int i = 10; i >= 0; i -= 2) {
             System.out.print(i + " ");
         }
+
+        System.out.print("\n\n");
+
+        //Task 5
+        System.out.println("# Task 5");
+        for (int row = 1; row <= 5; row++) {
+            for (int col = 1; col <= row; col++) {
+                System.out.print("* ");
+            }
+            System.out.print("\n");
+        }
     }
 }
